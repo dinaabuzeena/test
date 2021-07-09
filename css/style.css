@@ -1,0 +1,39 @@
+body{
+    position: relative;
+ 
+    background-image:url('/imgs/background.jpg') ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    place-items: center;
+    overflow: hidden;
+}
+
+
+.one{
+position: absolute;
+bottom: 50%;
+left: 40%;
+font-weight: bolder;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+font-size:20px ;
+}
+
+
+
+body main button{
+    position: absolute;
+    bottom: 42%;
+    width: 10%;
+    height: 10%;
+    left:47% ;
+   font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+   border-width: 2px;
+  border-color: orange;
+  background-color: rgb(162, 183, 243);
+}

@@ -1,0 +1,37 @@
+
+header{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: 90px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+
+}
+
+
+.right img {
+    width: 80px;
+    height: 100px;
+    float: left;
+    display: inline-flex;
+}
+
+.left {
+   display: inline-flex; 
+    float: right;
+    margin-top: 15px;
+    
+
+}
+
+.left a{
+     text-decoration: none ;
+     font-weight: bolder;
+     margin: 15px; ;
+     color: white;
+     
+} 
+
+header h1{
+    display: inline-flex;
+   margin-left: 10px ;
+}
